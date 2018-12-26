@@ -22,9 +22,6 @@ var routes = Routes{
 		"GetAccount",            // Name
 		"GET",                   // Method
 		"/accounts/{accountId}", // Pattern
-		func(w http.ResponseWriter, r *http.Request) { // HandlerFunc
-			w.Header().Set("Content-Type", "application/json; charset=UTF-8")
-			w.Write([]byte("{\"result\":\"OK\"}"))
-		},
+		GetAccount,
 	},
 }

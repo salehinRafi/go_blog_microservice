@@ -3,7 +3,11 @@ Code samples for the Go microservice blog series [[here](http://callistaenterpri
 
 
 ### What happen on this part?
-1. Building an HTTP web server for *accountservice*.
-    - Bootstrap the http server.
-    - Adding our first route.
-    - Importing dependencies (https://github.com/gorilla/mux)
+
+##### Embedded database and JSON.
+1. Declare an ‘Account’ struct
+   - Embedding a key-value store (go get github.com/boltdb/bolt)
+   - Seed (n) fake accounts on startup
+
+2. Adding a query Method.
+3. Serving the account over http.
