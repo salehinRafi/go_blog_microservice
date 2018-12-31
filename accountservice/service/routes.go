@@ -24,4 +24,16 @@ var routes = Routes{
 		"/accounts/{accountId}", // Pattern
 		GetAccount,
 	},
+	Route{
+		"HealthCheck",
+		"GET",
+		"/health",
+		HealthCheck,
+	},
+	Route{
+		"Testability",
+		"GET",
+		"/testability/healthy/{state}",
+		SetHealthyState,
+	},
 }
