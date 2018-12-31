@@ -18,5 +18,5 @@ Building Microservices: Serving JSON over HTTP for inter-service or external com
     - Deploy A Visualizer
     - The Copyall.Sh Script
 
-#Credit
+# Credit
 Callista Enterprise - [Blog Series - Building Microservices](http://callistaenterprise.se/blogg/teknik/2015/05/20/blog-series-building-microservices/).
