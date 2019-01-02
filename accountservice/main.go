@@ -4,7 +4,6 @@ import (
 	"fmt"
 
 	"github.com/salehinRafi/goblog/accountservice/dbclient"
-
 	"github.com/salehinRafi/goblog/accountservice/service"
 )
 

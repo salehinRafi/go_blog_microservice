@@ -4,15 +4,14 @@ Building Microservices: Serving JSON over HTTP for inter-service or external com
 
 ### What happen on this part?
 
-##### Health Check.
-1. Update Source Code
-    -	Add Check For Accessing The Boltdb
-    -	Adding The /Health Endpoint
+##### Consuming service discovery Information
+1. Scaling and load-balancing with Docker Swarm
+    - for service discovery & server-side load-balancing
 
-
-2. Creating The Healthchecker Program
-    -	Create Healthchecker
-    -	Making Things Fail On Purpose
+2. Bring out the quotes
+    -	to showcase how transparent the service discovery and load-balancing becomes when the only thing we need to know about the service we’re calling is its logical service name.
+    -	Utilize a HTTP-specific mocking framework that intercepts outgoing requests for us and returns a pre-determined answer - **gock**. 
+        ```go get -u gopkg.in/h2non/gock.v1```
 
 
 
